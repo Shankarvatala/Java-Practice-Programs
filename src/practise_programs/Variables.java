@@ -1,8 +1,11 @@
 package practise_programs;
 
-public class HelloWorld {
+public class Variables {
+
 	public static void main(String[] args) {
-		int num=10;
-		System.out.println(num);
+		int a=10;
+		String name="krisna";
+
 	}
+
 }
