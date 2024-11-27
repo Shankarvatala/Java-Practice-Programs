@@ -9,7 +9,7 @@ public class Forloop {
 		System.out.println("enter the number");
 		int n=obj.nextInt();
 	       int num=10;
-		for(int i=0;i<=num;i++) {
+		for(int i=1;i<=num;i++) {
 		System.out.println(i +"x"+ n +"="+(i*n));	
 			
 		}

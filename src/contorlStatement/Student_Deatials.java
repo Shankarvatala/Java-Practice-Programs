@@ -19,7 +19,7 @@ public class Student_Deatials {
 		//System.out.println("");
 		switch (student) {
 		case 1:	
-			System.out.println("student1");
+			System.out.println("student1");// 
 			System.out.println(name);
 			System.out.println(StudentMarks);
 

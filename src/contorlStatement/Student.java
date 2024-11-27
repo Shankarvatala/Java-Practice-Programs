@@ -10,22 +10,26 @@ public class Student {
 		int student1Marks=obj.nextInt();
 		System.out.println("enter 2nd student");
 		int student2Marks=obj.nextInt();
-		
-		System.out.println("1st student result");
-		if(student1Marks>35) {
-			System.out.println("pass");
+		if(student1Marks>35 && student2Marks>35)
+		{
+			System.out.println("Student1 and Student2 pass");
 		}
-		else {
-			System.out.println("fail");
-		}
-		System.out.println("2nd student result");
-		if(student2Marks>35) {
-			System.out.println("pass");
-		}
-		else {
-			System.out.println("fail");
+		else
+		{
+			if(student1Marks>35 && student2Marks<35)
+			{
+				System.out.println("student1 passed and student2 failed");
+			}
+			else if(student1Marks<35 && student2Marks>35)
+			{
+				System.out.println("student2 passed and student1 failed");
+			}
+			else
+			{
+				System.out.println("both are failed");
+			}
 		}
 
 	}
 
-}
+}	
