@@ -1,11 +1,15 @@
 package contorlStatement;
 
+import java.util.Scanner;
+
 public class LeepYear {
 
 	public static void main(String[] args) {
-		int year=2022;
+		Scanner obj=new Scanner(System.in);
+		System.out.println("enter the year");
+		int year=obj.nextInt();
 		if(year%4==0) {
-			System.out.println("leepYar");
+			System.out.println("is a leepYear");
 		}
 		else if(year%100==0) {
 			System.out.println("leepyear");

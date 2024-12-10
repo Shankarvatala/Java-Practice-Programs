@@ -9,7 +9,8 @@ public class Pattern_Programs {
 		System.out.println("enter the number");
 		int num=obj.nextInt();
 		for(int i=1;i<=num;i++) {
-			for(int j=num;j>=1;j--) {   
+			//for(int j=1;j<=num;j++) {
+			for (int j=num;j>=1;j--) {
 				if(j==i) {
 				System.out.print("* ");
 			}
