@@ -8,7 +8,7 @@ public class ArrayTakenUserInputs {
 		Scanner obj=new Scanner(System.in);
 		System.out.println("please enter how many elements you want to store");
 		int length=obj.nextInt();
-		int[] array=new int [length];
+		int[] array=new int [length];// ARRAY object declarations
 		System.out.println("length of array:"+array.length);
 		System.out.println("please enter"+array.length+"elements into the array");
 		for(int i=0;i<array.length;i++) {
